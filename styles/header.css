@@ -1,0 +1,135 @@
+header {
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+
+header.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: header-anim 0.4s ease;
+}
+
+@keyframes header-anim {
+    0% {
+        transform: translateY(-10rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.topbar {
+    margin: 0 auto;
+    height: 4.5rem;
+    width: 100%;
+    max-width: 1260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+    z-index: 99999;
+}
+
+.logo a {
+    color: #206822;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.search-box {
+    width: 24rem;
+    height: 2.2rem;
+    display: flex;
+    transition: all 0.4s ease;
+}
+
+.search-icon {
+    height: 100%;
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #206822;
+    border-radius: 0.1rem 0 0 0.1rem;
+}
+
+.search-icon span {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.search-box input {
+    padding-left: 0.8rem;
+    height: 100%;
+    width: 80%;
+    color: #222;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background: #ddd;
+    box-sizing: border-box;
+    border-radius: 0 0.1rem 0.1rem 0;
+}
+
+input::placeholder {
+    font-size: 1rem;
+}
+
+.topbar-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar-btn {
+    margin-left: 1rem;
+    position: relative;
+    background: #222;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+#cart-btn,
+#favorite-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart-btn span,
+#favorite-btn span {
+    padding: 0.4rem 0.6rem;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#cart-btn span.icon,
+#favorite-btn span.icon {
+    border-right: 1px solid gray;
+    font-size: 1rem;
+}
+
+#cart-counter,
+#favorite-counter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    color: #fff;
+    font-size: 1rem;
+    height: 1.6rem;
+    width: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 50%;
+}

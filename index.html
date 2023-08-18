@@ -4,14 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="icon.css">
     <title>Shopping cart system</title>
 </head>
 <body>
     <div class="container">
+        <!-- header start -->
         <header>
-            <!-- header -->
+            <div class="topbar">
+                <div class="logo">
+                    <a href="#">eBazar.</a>
+                </div>
+
+                <div class="search-box">
+                    <div class="search-icon">
+                        <span class="icon-search"></span>
+                    </div>
+                    <input type="text" placeholder="Search...">
+                </div>
+    
+                <div class="topbar-btns">
+                    <div class="topbar-btn">
+                        <div id="favorite-btn">
+                            <span class="icon-heart icon"></span>
+                            <span>Favorites</span>
+                        </div>
+                        <span id="favorite-counter">0</span>
+                    </div>
+
+                    <div class="topbar-btn">
+                        <div id="cart-btn">
+                            <span class="icon-cart-arrow-down icon"></span>
+                            <span>Cart</span>
+                        </div>
+                        <span id="cart-counter">0</span>
+                    </div>
+                </div>
+            </div>
         </header>
+        <!-- header end -->
+        
+
         <section>
             <!-- products -->
         </section>
