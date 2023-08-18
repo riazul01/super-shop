@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/products.css">
     <link rel="stylesheet" href="icon.css">
     <title>Shopping cart system</title>
 </head>
@@ -44,11 +45,67 @@
             </div>
         </header>
         <!-- header end -->
-        
 
-        <section>
-            <!-- products -->
+
+        <!-- products section start -->
+        <section id="products">
+            
+            <div id="vegetables">
+                <div class="products-header">
+                    <p>Vegetables</p>
+                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                </div>
+
+                <div class="products-wrap">
+                    
+                    <div class="product">
+                        <div class="product-img">
+                            <img src="images/vegetables/broccoli.jpg" alt="broccoli_img">
+                        </div>
+    
+                        <div class="add-to-favorite">
+                            <span class="icon-heart"></span>
+                        </div>
+    
+                        <p class="discount-tag">
+                            <span>20</span>% off
+                        </p>
+    
+                        <div class="product-desc">
+                            <p class="product-name">Broccoli</p>
+                            <div class="price-box">
+                                <strong>Price:</strong>
+                                <!-- <div>
+                                    <span class="product-price">80Tk/pcs</span>
+                                </div> -->
+                                <del>
+                                    <span class="product-price">580Tk/pcs</span>
+                                </del>
+                                <ins>
+                                    <span class="cur-price">500Tk/pcs</span>
+                                </ins>
+                            </div>
+    
+                            <div class="add-to-cart-btn">
+                                <span class="icon-cart-plus"></span>
+                                <p>Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div id="fruits"></div>
+            <div id="meat&fist"></div>
+            <div id="eggs"></div>
+            <div id="beverages"></div>
+            <div id="spices"></div>
+            <div id="dried-fruits"></div>
         </section>
+        <!-- products section end -->
+
         <section>
             <!-- shopping cart -->
         </section>
