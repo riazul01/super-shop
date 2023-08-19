@@ -44,7 +44,7 @@
     margin-left: 0.4rem;
 }
 
-.product {
+.product-card {
     margin-bottom: 2rem;
     position: relative;
     height: 360px;
@@ -56,7 +56,7 @@
     transition: all 0.4s ease;
 }
 
-.product:hover {
+.product-card:hover {
     box-shadow: 0.4rem 0.4rem 1rem #cefccc;
 }
 
