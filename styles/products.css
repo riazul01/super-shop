@@ -3,7 +3,7 @@
     margin: 0 auto;
     height: auto;
     width: 100%;
-    max-width: 1260px;
+    max-width: 1440px;
 }
 
 #products > div {
@@ -14,8 +14,9 @@
 
 .products-wrap {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .products-header {
@@ -45,7 +46,7 @@
 }
 
 .product-card {
-    margin-bottom: 2rem;
+    margin: 0 1.6rem 3rem 0;
     position: relative;
     height: 360px;
     width: 260px;
