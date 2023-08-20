@@ -417,7 +417,7 @@ export const products = [
     },
     {
         id: 133,
-        category: 'meat&fist',
+        category: 'meat-fish',
         name: 'Chicken',
         price: 180,
         currency: 'Tk',
@@ -430,7 +430,7 @@ export const products = [
     },
     {
         id: 134,
-        category: 'meat&fist',
+        category: 'meat-fish',
         name: 'Beef',
         price: 720,
         currency: 'Tk',
@@ -443,7 +443,7 @@ export const products = [
     },
     {
         id: 135,
-        category: 'meat&fist',
+        category: 'meat-fish',
         name: 'Buffalo',
         price: 1040,
         currency: 'Tk',
@@ -456,7 +456,7 @@ export const products = [
     },
     {
         id: 136,
-        category: 'meat&fist',
+        category: 'meat-fish',
         name: 'Mutton',
         price: 860,
         currency: 'Tk',
@@ -469,7 +469,7 @@ export const products = [
     },
     {
         id: 137,
-        category: 'meat&fist',
+        category: 'meat-fish',
         name: 'Camel',
         price: 1220,
         currency: 'Tk',
@@ -482,7 +482,7 @@ export const products = [
     },
     {
         id: 138,
-        category: 'meat&fist',
+        category: 'meat-fish',
         name: 'Shrimp',
         price: 980,
         currency: 'Tk',
@@ -495,7 +495,7 @@ export const products = [
     },
     {
         id: 139,
-        category: 'meat&fist',
+        category: 'meat-fish',
         name: 'Common Carp',
         price: 240,
         currency: 'Tk',
@@ -508,7 +508,7 @@ export const products = [
     },
     {
         id: 140,
-        category: 'meat&fist',
+        category: 'meat-fish',
         name: 'Sprat',
         price: 460,
         currency: 'Tk',
@@ -520,8 +520,8 @@ export const products = [
         imageUrl: './images/meat&fish/sprat.jpg'
     },
     {
-        id: 134,
-        category: 'meat&fist',
+        id: 141,
+        category: 'meat-fish',
         name: 'Trout',
         price: 520,
         currency: 'Tk',
@@ -533,7 +533,7 @@ export const products = [
         imageUrl: './images/meat&fish/trout.jpg'
     },
     {
-        id: 135,
+        id: 142,
         category: 'eggs',
         name: 'Koyel Egg',
         price: 30,
@@ -546,7 +546,7 @@ export const products = [
         imageUrl: './images/eggs/koyel-egg.jpg'
     },
     {
-        id: 136,
+        id: 143,
         category: 'eggs',
         name: 'Chicken Egg',
         price: 90,
@@ -559,7 +559,7 @@ export const products = [
         imageUrl: './images/eggs/chicken-egg.jpg'
     },
     {
-        id: 137,
+        id: 144,
         category: 'eggs',
         name: 'Duck Egg',
         price: 120,
@@ -572,7 +572,7 @@ export const products = [
         imageUrl: './images/eggs/duck-egg.jpg'
     },
     {
-        id: 138,
+        id: 145,
         category: 'beverages',
         name: 'Tea Leaf',
         price: 640,
@@ -585,7 +585,7 @@ export const products = [
         imageUrl: './images/beverages/tea.jpg'
     },
     {
-        id: 138,
+        id: 146,
         category: 'beverages',
         name: 'Coffe',
         price: 1280,
@@ -598,7 +598,7 @@ export const products = [
         imageUrl: './images/beverages/coffe.jpg'
     },
     {
-        id: 138,
+        id: 147,
         category: 'beverages',
         name: 'Green Tea',
         price: 890,
@@ -611,7 +611,7 @@ export const products = [
         imageUrl: './images/beverages/green-tea.jpg'
     },
     {
-        id: 139,
+        id: 148,
         category: 'spices',
         name: 'Clove',
         price: 820,
@@ -624,7 +624,7 @@ export const products = [
         imageUrl: './images/spices/clove.jpg'
     },
     {
-        id: 140,
+        id: 149,
         category: 'spices',
         name: 'Cardamom',
         price: 960,
@@ -637,7 +637,7 @@ export const products = [
         imageUrl: './images/spices/cardamom.jpg'
     },
     {
-        id: 141,
+        id: 150,
         category: 'spices',
         name: 'Mix Spice',
         price: 860,
@@ -650,8 +650,8 @@ export const products = [
         imageUrl: './images/spices/mix-spice.jpg'
     },
     {
-        id: 142,
-        category: 'spices',
+        id: 151,
+        category: 'dried-fruits',
         name: 'Almond',
         price: 860,
         currency: 'Tk',
@@ -663,8 +663,8 @@ export const products = [
         imageUrl: './images/driedFruits/almond.jpg'
     },
     {
-        id: 143,
-        category: 'spices',
+        id: 152,
+        category: 'dried-fruits',
         name: 'Dates',
         price: 460,
         currency: 'Tk',
@@ -676,8 +676,8 @@ export const products = [
         imageUrl: './images/driedFruits/dates.jpg'
     },
     {
-        id: 144,
-        category: 'spices',
+        id: 153,
+        category: 'dried-fruits',
         name: 'Raisins',
         price: 580,
         currency: 'Tk',
@@ -689,8 +689,8 @@ export const products = [
         imageUrl: './images/driedFruits/raisins.jpg'
     },
     {
-        id: 145,
-        category: 'spices',
+        id: 154,
+        category: 'dried-fruits',
         name: 'Cashew Nut',
         price: 980,
         currency: 'Tk',

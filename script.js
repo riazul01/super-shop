@@ -99,11 +99,35 @@ const createProductCard = (product) => {
     productCard.appendChild(discountTag);
     productCard.appendChild(productDesc);
 
+    productCard.setAttribute('id', product.id);
+
     return productCard;
 }
 
 for (let i = 0; i < products.length; i ++) {
     const productCard = createProductCard(products[i]);
-    const productWrap = document.querySelector('.products-wrap');
-    productWrap.appendChild(productCard);
+
+    const vegetables = document.querySelector('.vegetables');
+    const fruits = document.querySelector('.fruits');
+    const meatAndFish = document.querySelector('.meat-fish');
+    const eggs = document.querySelector('.eggs');
+    const beverages = document.querySelector('.beverages');
+    const spices = document.querySelector('.spices');
+    const driedFruits = document.querySelector('.dried-fruits');
+    
+    if (products[i].category === 'vegetables') {
+        vegetables.appendChild(productCard);
+    } else if (products[i].category === 'fruits') {
+        fruits.appendChild(productCard);
+    } else if (products[i].category === 'meat-fish') {
+        meatAndFish.appendChild(productCard);
+    } else if (products[i].category === 'eggs') {
+        eggs.appendChild(productCard);
+    } else if (products[i].category === 'beverages') {
+        beverages.appendChild(productCard);
+    } else if (products[i].category === 'spices') {
+        spices.appendChild(productCard);
+    } else if (products[i].category === 'dried-fruits') {
+        driedFruits.appendChild(productCard);
+    }
 }
