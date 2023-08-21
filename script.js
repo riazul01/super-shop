@@ -107,27 +107,53 @@ const createProductCard = (product) => {
 for (let i = 0; i < products.length; i ++) {
     const productCard = createProductCard(products[i]);
 
-    const vegetables = document.querySelector('.vegetables');
-    const fruits = document.querySelector('.fruits');
-    const meatAndFish = document.querySelector('.meat-fish');
-    const eggs = document.querySelector('.eggs');
-    const beverages = document.querySelector('.beverages');
-    const spices = document.querySelector('.spices');
-    const driedFruits = document.querySelector('.dried-fruits');
-    
-    if (products[i].category === 'vegetables') {
-        vegetables.appendChild(productCard);
-    } else if (products[i].category === 'fruits') {
-        fruits.appendChild(productCard);
-    } else if (products[i].category === 'meat-fish') {
-        meatAndFish.appendChild(productCard);
-    } else if (products[i].category === 'eggs') {
-        eggs.appendChild(productCard);
-    } else if (products[i].category === 'beverages') {
-        beverages.appendChild(productCard);
-    } else if (products[i].category === 'spices') {
-        spices.appendChild(productCard);
-    } else if (products[i].category === 'dried-fruits') {
-        driedFruits.appendChild(productCard);
+    if (document.querySelector('.home')) {
+        const top = document.querySelector('.top-products');
+        const recent = document.querySelector('.recent-products');
+        const popular = document.querySelector('.popular-products');
+
+        if (products[i].subCategory === 'top') {
+            top.appendChild(productCard);
+        } else if (products[i].subCategory === 'recent') {
+            recent.appendChild(productCard);
+        } else if (products[i].subCategory === 'popular') {
+            popular.appendChild(productCard);
+        }
+    } else if (document.querySelector('.products')) {
+        const top = document.querySelector('.top');
+        const recent = document.querySelector('.recent');
+        const popular = document.querySelector('.popular');
+
+        const vegetables = document.querySelector('.vegetables');
+        const fruits = document.querySelector('.fruits');
+        const meatAndFish = document.querySelector('.meat-fish');
+        const eggs = document.querySelector('.eggs');
+        const beverages = document.querySelector('.beverages');
+        const spices = document.querySelector('.spices');
+        const driedFruits = document.querySelector('.dried-fruits');
+
+        if (products[i].subCategory === 'top') {
+            top.appendChild(productCard);
+        } else if (products[i].subCategory === 'recent') {
+            recent.appendChild(productCard);
+        } else if (products[i].subCategory === 'popular') {
+            popular.appendChild(productCard);
+        } 
+        
+        if (products[i].category === 'vegetables') {
+            vegetables.appendChild(productCard);
+        } else if (products[i].category === 'fruits') {
+            fruits.appendChild(productCard);
+        } else if (products[i].category === 'meat-fish') {
+            meatAndFish.appendChild(productCard);
+        } else if (products[i].category === 'eggs') {
+            eggs.appendChild(productCard);
+        } else if (products[i].category === 'beverages') {
+            beverages.appendChild(productCard);
+        } else if (products[i].category === 'spices') {
+            spices.appendChild(productCard);
+        } else if (products[i].category === 'dried-fruits') {
+            driedFruits.appendChild(productCard);
+        }
     }
 }

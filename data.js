@@ -2,6 +2,7 @@ export const products = [
     {
         id: 101,
         category: 'vegetables',
+        subCategory: 'popular',
         name: 'Broccoli',
         price: 80,
         currency: 'Tk',
@@ -15,6 +16,7 @@ export const products = [
     {
         id: 102,
         category: 'vegetables',
+        subCategory: 'popular',
         name: 'Cabbage',
         price: 60,
         currency: 'Tk',
@@ -28,6 +30,7 @@ export const products = [
     {
         id: 103,
         category: 'vegetables',
+        subCategory: 'popular',
         name: 'Local Carrot',
         price: 40,
         currency: 'Tk',
@@ -41,6 +44,7 @@ export const products = [
     {
         id: 104,
         category: 'vegetables',
+        subCategory: '',
         name: 'Local Cucumber',
         price: 60,
         currency: 'Tk',
@@ -54,6 +58,7 @@ export const products = [
     {
         id: 105,
         category: 'vegetables',
+        subCategory: 'popular',
         name: 'Cauliflower',
         price: 80,
         currency: 'Tk',
@@ -67,6 +72,7 @@ export const products = [
     {
         id: 106,
         category: 'vegetables',
+        subCategory: '',
         name: 'Potato Seasonal',
         price: 30,
         currency: 'Tk',
@@ -80,6 +86,7 @@ export const products = [
     {
         id: 107,
         category: 'vegetables',
+        subCategory: '',
         name: 'Local Onion',
         price: 40,
         currency: 'Tk',
@@ -93,6 +100,7 @@ export const products = [
     {
         id: 108,
         category: 'vegetables',
+        subCategory: '',
         name: 'Local Chili',
         price: 50,
         currency: 'Tk',
@@ -106,6 +114,7 @@ export const products = [
     {
         id: 109,
         category: 'vegetables',
+        subCategory: '',
         name: 'Bean Seed',
         price: 120,
         currency: 'Tk',
@@ -119,6 +128,7 @@ export const products = [
     {
         id: 110,
         category: 'vegetables',
+        subCategory: '',
         name: 'Long Bean',
         price: 60,
         currency: 'Tk',
@@ -132,6 +142,7 @@ export const products = [
     {
         id: 111,
         category: 'vegetables',
+        subCategory: 'popular',
         name: 'Tomato',
         price: 40,
         currency: 'Tk',
@@ -145,6 +156,7 @@ export const products = [
     {
         id: 112,
         category: 'vegetables',
+        subCategory: 'top',
         name: 'Motorshuti',
         price: 140,
         currency: 'Tk',
@@ -158,6 +170,7 @@ export const products = [
     {
         id: 113,
         category: 'vegetables',
+        subCategory: 'popular',
         name: 'Radish',
         price: 30,
         currency: 'Tk',
@@ -171,6 +184,7 @@ export const products = [
     {
         id: 114,
         category: 'vegetables',
+        subCategory: 'popular',
         name: 'Red Radish',
         price: 35,
         currency: 'Tk',
@@ -184,6 +198,7 @@ export const products = [
     {
         id: 115,
         category: 'vegetables',
+        subCategory: 'top',
         name: 'Green Chili',
         price: 60,
         currency: 'Tk',
@@ -197,6 +212,7 @@ export const products = [
     {
         id: 116,
         category: 'vegetables',
+        subCategory: 'top',
         name: 'Green Peas',
         price: 90,
         currency: 'Tk',
@@ -210,6 +226,7 @@ export const products = [
     {
         id: 117,
         category: 'vegetables',
+        subCategory: '',
         name: 'Capsicum',
         price: 110,
         currency: 'Tk',
@@ -223,6 +240,7 @@ export const products = [
     {
         id: 118,
         category: 'vegetables',
+        subCategory: '',
         name: 'Zucchini',
         price: 80,
         currency: 'Tk',
@@ -236,6 +254,7 @@ export const products = [
     {
         id: 119,
         category: 'fruits',
+        subCategory: 'top',
         name: 'Fresh Apple',
         price: 160,
         currency: 'Tk',
@@ -249,6 +268,7 @@ export const products = [
     {
         id: 120,
         category: 'fruits',
+        subCategory: 'top',
         name: 'Fresh Orange',
         price: 140,
         currency: 'Tk',
@@ -262,6 +282,7 @@ export const products = [
     {
         id: 121,
         category: 'fruits',
+        subCategory: '',
         name: 'Green Orange',
         price: 160,
         currency: 'Tk',
@@ -275,6 +296,7 @@ export const products = [
     {
         id: 122,
         category: 'fruits',
+        subCategory: '',
         name: 'Fresh Grape',
         price: 180,
         currency: 'Tk',
@@ -288,6 +310,7 @@ export const products = [
     {
         id: 123,
         category: 'fruits',
+        subCategory: '',
         name: 'Fresh Kiwi',
         price: 130,
         currency: 'Tk',
@@ -301,6 +324,7 @@ export const products = [
     {
         id: 124,
         category: 'fruits',
+        subCategory: 'top',
         name: 'Pomegranate',
         price: 180,
         currency: 'Tk',
@@ -314,6 +338,7 @@ export const products = [
     {
         id: 125,
         category: 'fruits',
+        subCategory: 'top',
         name: 'Strawberry',
         price: 130,
         currency: 'Tk',
@@ -327,6 +352,7 @@ export const products = [
     {
         id: 126,
         category: 'fruits',
+        subCategory: 'top',
         name: 'Fresh Peach',
         price: 160,
         currency: 'Tk',
@@ -340,6 +366,7 @@ export const products = [
     {
         id: 127,
         category: 'fruits',
+        subCategory: 'recent',
         name: 'Fresh Mango',
         price: 180,
         currency: 'Tk',
@@ -353,6 +380,7 @@ export const products = [
     {
         id: 128,
         category: 'fruits',
+        subCategory: 'popular',
         name: 'Fresh Lemon',
         price: 120,
         currency: 'Tk',
@@ -366,6 +394,7 @@ export const products = [
     {
         id: 129,
         category: 'fruits',
+        subCategory: '',
         name: 'Cherry',
         price: 150,
         currency: 'Tk',
@@ -379,6 +408,7 @@ export const products = [
     {
         id: 130,
         category: 'fruits',
+        subCategory: '',
         name: 'Blueberry',
         price: 140,
         currency: 'Tk',
@@ -392,6 +422,7 @@ export const products = [
     {
         id: 131,
         category: 'fruits',
+        subCategory: 'recent',
         name: 'Pinapple',
         price: 80,
         currency: 'Tk',
@@ -405,6 +436,7 @@ export const products = [
     {
         id: 132,
         category: 'fruits',
+        subCategory: 'recent',
         name: 'Watermelon',
         price: 350,
         currency: 'Tk',
@@ -418,6 +450,7 @@ export const products = [
     {
         id: 133,
         category: 'meat-fish',
+        subCategory: '',
         name: 'Chicken',
         price: 180,
         currency: 'Tk',
@@ -431,6 +464,7 @@ export const products = [
     {
         id: 134,
         category: 'meat-fish',
+        subCategory: '',
         name: 'Beef',
         price: 720,
         currency: 'Tk',
@@ -444,6 +478,7 @@ export const products = [
     {
         id: 135,
         category: 'meat-fish',
+        subCategory: '',
         name: 'Buffalo',
         price: 1040,
         currency: 'Tk',
@@ -457,6 +492,7 @@ export const products = [
     {
         id: 136,
         category: 'meat-fish',
+        subCategory: '',
         name: 'Mutton',
         price: 860,
         currency: 'Tk',
@@ -470,6 +506,7 @@ export const products = [
     {
         id: 137,
         category: 'meat-fish',
+        subCategory: '',
         name: 'Camel',
         price: 1220,
         currency: 'Tk',
@@ -483,6 +520,7 @@ export const products = [
     {
         id: 138,
         category: 'meat-fish',
+        subCategory: '',
         name: 'Shrimp',
         price: 980,
         currency: 'Tk',
@@ -496,6 +534,7 @@ export const products = [
     {
         id: 139,
         category: 'meat-fish',
+        subCategory: '',
         name: 'Common Carp',
         price: 240,
         currency: 'Tk',
@@ -509,6 +548,7 @@ export const products = [
     {
         id: 140,
         category: 'meat-fish',
+        subCategory: '',
         name: 'Sprat',
         price: 460,
         currency: 'Tk',
@@ -522,6 +562,7 @@ export const products = [
     {
         id: 141,
         category: 'meat-fish',
+        subCategory: '',
         name: 'Trout',
         price: 520,
         currency: 'Tk',
@@ -535,6 +576,7 @@ export const products = [
     {
         id: 142,
         category: 'eggs',
+        subCategory: '',
         name: 'Koyel Egg',
         price: 30,
         currency: 'Tk',
@@ -548,6 +590,7 @@ export const products = [
     {
         id: 143,
         category: 'eggs',
+        subCategory: '',
         name: 'Chicken Egg',
         price: 90,
         currency: 'Tk',
@@ -561,6 +604,7 @@ export const products = [
     {
         id: 144,
         category: 'eggs',
+        subCategory: '',
         name: 'Duck Egg',
         price: 120,
         currency: 'Tk',
@@ -574,6 +618,7 @@ export const products = [
     {
         id: 145,
         category: 'beverages',
+        subCategory: '',
         name: 'Tea Leaf',
         price: 640,
         currency: 'Tk',
@@ -587,6 +632,7 @@ export const products = [
     {
         id: 146,
         category: 'beverages',
+        subCategory: 'popular',
         name: 'Coffe',
         price: 1280,
         currency: 'Tk',
@@ -600,6 +646,7 @@ export const products = [
     {
         id: 147,
         category: 'beverages',
+        subCategory: 'recent',
         name: 'Green Tea',
         price: 890,
         currency: 'Tk',
@@ -613,6 +660,7 @@ export const products = [
     {
         id: 148,
         category: 'spices',
+        subCategory: 'recent',
         name: 'Clove',
         price: 820,
         currency: 'Tk',
@@ -626,6 +674,7 @@ export const products = [
     {
         id: 149,
         category: 'spices',
+        subCategory: '',
         name: 'Cardamom',
         price: 960,
         currency: 'Tk',
@@ -639,6 +688,7 @@ export const products = [
     {
         id: 150,
         category: 'spices',
+        subCategory: '',
         name: 'Mix Spice',
         price: 860,
         currency: 'Tk',
@@ -652,6 +702,7 @@ export const products = [
     {
         id: 151,
         category: 'dried-fruits',
+        subCategory: 'recent',
         name: 'Almond',
         price: 860,
         currency: 'Tk',
@@ -665,6 +716,7 @@ export const products = [
     {
         id: 152,
         category: 'dried-fruits',
+        subCategory: 'recent',
         name: 'Dates',
         price: 460,
         currency: 'Tk',
@@ -678,6 +730,7 @@ export const products = [
     {
         id: 153,
         category: 'dried-fruits',
+        subCategory: 'recent',
         name: 'Raisins',
         price: 580,
         currency: 'Tk',
@@ -691,6 +744,7 @@ export const products = [
     {
         id: 154,
         category: 'dried-fruits',
+        subCategory: '',
         name: 'Cashew Nut',
         price: 980,
         currency: 'Tk',
