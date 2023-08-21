@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 * {
     margin: 0;
@@ -18,7 +20,14 @@ body {
 }
 
 .container {
-    margin: 0 auto;
     height: auto;
     width: 100%;
+}
+
+.section-wrap {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 1420px;
+    height: auto;
 }

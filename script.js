@@ -1,5 +1,20 @@
 import { products } from "./data.js";
 
+let header = document.querySelector('header');
+let sectionWrap = document.querySelector('.section-wrap');
+
+window.onscroll = () => {
+    let scrollTop = document.documentElement.scrollTop;
+
+    if (scrollTop > header.offsetHeight) {
+        header.classList.add('active-header');
+        sectionWrap.style.marginTop = header.offsetHeight + 'px';
+    } else {
+        header.classList.remove('active-header');
+        sectionWrap.style.marginTop = 0 + 'px';
+    }
+}
+
 const createProductCard = (product) => {
     const productCard = document.createElement('div');
     productCard.setAttribute('class', 'product-card');

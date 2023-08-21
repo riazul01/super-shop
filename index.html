@@ -10,156 +10,154 @@
     <title>Shopping cart system</title>
 </head>
 <body>
-    <div class="container products">
+    <div class="container home">
         <!-- header start -->
-        <header>
-            <div class="topbar">
+        <header class="header">
+            <div class="navbar">
                 <div class="logo">
                     <a href="#">eBazar.</a>
                 </div>
 
+                <ul class="nav-items">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
                 <div class="search-box">
+                    <input type="text" placeholder="Search...">
                     <div class="search-icon">
                         <span class="icon-search"></span>
                     </div>
-                    <input type="text" placeholder="Search...">
                 </div>
     
-                <div class="topbar-btns">
-                    <div class="topbar-btn">
-                        <div id="favorite-btn">
-                            <span class="icon-heart icon"></span>
-                            <span>Favorites</span>
-                        </div>
-                        <span id="favorite-counter">0</span>
-                    </div>
-
-                    <div class="topbar-btn">
-                        <div id="cart-btn">
-                            <span class="icon-cart-arrow-down icon"></span>
-                            <span>Cart</span>
-                        </div>
-                        <span id="cart-counter">0</span>
-                    </div>
+                <div class="icon-links">
+                    <div id="customer-center"><span class="icon-phone-alt"></span></div>
+                    <a href="#" id="shopping-cart-link"><span class="icon-cart-arrow-down"><span id="item-counter">0</span></a>
+                    <div id="user-account-link"><span class="icon-user"></div>
                 </div>
             </div>
         </header>
         <!-- header end -->
 
 
-        <!-- products section start -->
-        <section id="products">
-            <div id="top-products">
-                <div class="products-header">
-                    <p>Top Products</p>
-                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
+        <!-- section contents start -->
+        <div class="section-wrap">
+            <section id="products">
+                <div id="top-products">
+                    <div class="products-header">
+                        <p>Top Products</p>
+                        <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                    </div>
+    
+                    <div class="products-wrap top-products">
+                        <!-- top-products: auto injected by js -->
+                    </div>
                 </div>
-
-                <div class="products-wrap top-products">
-                    <!-- top-products: auto injected by js -->
+    
+                <div id="recent-products">
+                    <div class="products-header">
+                        <p>Recent Products</p>
+                        <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                    </div>
+    
+                    <div class="products-wrap recent-products">
+                        <!-- recent-products: auto injected by js -->
+                    </div>
                 </div>
-            </div>
-
-            <div id="recent-products">
-                <div class="products-header">
-                    <p>Recent Products</p>
-                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
+    
+                <div id="popular-products">
+                    <div class="products-header">
+                        <p>Popular now</p>
+                        <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                    </div>
+    
+                    <div class="products-wrap popular-products">
+                        <!-- popular-products: auto injected by js -->
+                    </div>
                 </div>
-
-                <div class="products-wrap recent-products">
-                    <!-- recent-products: auto injected by js -->
+    
+                <div id="vegetables">
+                    <div class="products-header">
+                        <p>Fresh Vegetables</p>
+                        <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                    </div>
+    
+                    <div class="products-wrap vegetables">
+                        <!-- vegetables: auto injected by js -->
+                    </div>
                 </div>
-            </div>
-
-            <div id="popular-products">
-                <div class="products-header">
-                    <p>Popular now</p>
-                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
+    
+                <div id="fruits">
+                    <div class="products-header">
+                        <p>Fresh Vegetables</p>
+                        <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                    </div>
+    
+                    <div class="products-wrap fruits">
+                        <!-- vegetables: auto injected by js -->
+                    </div>
                 </div>
-
-                <div class="products-wrap popular-products">
-                    <!-- popular-products: auto injected by js -->
+    
+                <div id="meat-fish">
+                    <div class="products-header">
+                        <p>Fresh Vegetables</p>
+                        <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                    </div>
+    
+                    <div class="products-wrap meat-fish">
+                        <!-- vegetables: auto injected by js -->
+                    </div>
                 </div>
-            </div>
-
-            <div id="vegetables">
-                <div class="products-header">
-                    <p>Fresh Vegetables</p>
-                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
+    
+                <div id="eggs">
+                    <div class="products-header">
+                        <p>Fresh Vegetables</p>
+                        <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                    </div>
+    
+                    <div class="products-wrap eggs">
+                        <!-- vegetables: auto injected by js -->
+                    </div>
                 </div>
-
-                <div class="products-wrap vegetables">
-                    <!-- vegetables: auto injected by js -->
+    
+                <div id="beverages">
+                    <div class="products-header">
+                        <p>Fresh Vegetables</p>
+                        <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                    </div>
+    
+                    <div class="products-wrap beverages">
+                        <!-- vegetables: auto injected by js -->
+                    </div>
                 </div>
-            </div>
-
-            <div id="fruits">
-                <div class="products-header">
-                    <p>Fresh Vegetables</p>
-                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
+    
+                <div id="spices">
+                    <div class="products-header">
+                        <p>Fresh Vegetables</p>
+                        <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                    </div>
+    
+                    <div class="products-wrap spices">
+                        <!-- vegetables: auto injected by js -->
+                    </div>
                 </div>
-
-                <div class="products-wrap fruits">
-                    <!-- vegetables: auto injected by js -->
+    
+                <div id="dried-fruits">
+                    <div class="products-header">
+                        <p>Fresh Vegetables</p>
+                        <a href="#">See more <span class="icon-angle-double-right"></span></a>
+                    </div>
+    
+                    <div class="products-wrap dried-fruits">
+                        <!-- vegetables: auto injected by js -->
+                    </div>
                 </div>
-            </div>
-
-            <div id="meat-fish">
-                <div class="products-header">
-                    <p>Fresh Vegetables</p>
-                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
-                </div>
-
-                <div class="products-wrap meat-fish">
-                    <!-- vegetables: auto injected by js -->
-                </div>
-            </div>
-
-            <div id="eggs">
-                <div class="products-header">
-                    <p>Fresh Vegetables</p>
-                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
-                </div>
-
-                <div class="products-wrap eggs">
-                    <!-- vegetables: auto injected by js -->
-                </div>
-            </div>
-
-            <div id="beverages">
-                <div class="products-header">
-                    <p>Fresh Vegetables</p>
-                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
-                </div>
-
-                <div class="products-wrap beverages">
-                    <!-- vegetables: auto injected by js -->
-                </div>
-            </div>
-
-            <div id="spices">
-                <div class="products-header">
-                    <p>Fresh Vegetables</p>
-                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
-                </div>
-
-                <div class="products-wrap spices">
-                    <!-- vegetables: auto injected by js -->
-                </div>
-            </div>
-
-            <div id="dried-fruits">
-                <div class="products-header">
-                    <p>Fresh Vegetables</p>
-                    <a href="#">See more <span class="icon-angle-double-right"></span></a>
-                </div>
-
-                <div class="products-wrap dried-fruits">
-                    <!-- vegetables: auto injected by js -->
-                </div>
-            </div>
-        </section>
-        <!-- products section end -->
+            </section>
+        </div>
+        <!-- section contents end -->
 
         <section>
             <!-- shopping cart -->
