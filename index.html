@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/hero.css">
     <link rel="stylesheet" href="./styles/products.css">
     <link rel="stylesheet" href="icon.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <title>Shopping cart system</title>
 </head>
 <body>
@@ -43,9 +47,44 @@
         <!-- header end -->
 
 
+
         <!-- section contents start -->
-        <div class="section-wrap">
-            <section id="products">
+        <div class="sections">
+             <!-- hero section start -->
+            <section class="hero">
+                <marquee behavior="scroll" scrollamount="10" direction="left">
+                    Welcome to eBazar! Get your daily needs easy and instant from our shop. Buy fresh and organic fruits
+                    with a big discount! Please use this voucher code (#234307) to get upto 50% discunt from your total purchase.
+                    Dear sir, Now you can get upto 50% discount of any product just using this voucher code (#234307). Don't
+                    forget to submit this code at the checkout time of your purchase. Thank You!
+                </marquee>
+
+                <div class="hero-wrap">
+                    <div class="hero-image">
+                        <img class="animate__animated animate__bounceInDown" src="./images/hero/01.png" alt="hero-img">
+                    </div>
+
+                    <div class="hero-description">
+                        <h1 class="animate__animated animate__bounceInRight hero-title">The best dried fruits for your
+                            family health</h1>
+                        <button class="animate__animated animate__bounceInUp hero-button">Explore</button>
+                    </div>
+
+                    <div class="hero-slide-btn">
+                        <div class="hero-slide-left">
+                            <span class="icon-arrow-left"></span>
+                        </div>
+                        <div class="hero-slide-right">
+                            <span class="icon-arrow-right"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- hero section end -->
+
+
+
+            <section class="section-wrap" id="products">
                 <div id="top-products">
                     <div class="products-header">
                         <p>Top Products</p>

@@ -1,0 +1,100 @@
+.hero {
+    height: 440px;
+    width: 100%;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background/about.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+marquee {
+    color: #fff;
+    width: 100%;
+    height: 1.4rem;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-wrap {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: calc(100% - 1.4rem);
+    max-width: 1420px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-image {
+    height: 90%;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation-delay: 0.3s;
+}
+
+.hero-description {
+    width: 60%;
+}
+
+.hero-description h1 {
+    margin-bottom: 0.6rem;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0.2rem 0.2rem 1rem #211e25;
+}
+
+.hero-description .hero-title {
+    
+}
+
+.hero-description button {
+    margin: 1rem 0 0 0.4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    height: 3.6rem;
+    width: 10rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.1rem;
+    background: #206822;
+    box-shadow: 0.2rem 0.2rem 1rem #211e25;
+    animation-delay: 0.5s;
+}
+
+.hero-slide-btn {
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    display: flex;
+    height: auto;
+    width: 7.4rem;
+    justify-content: space-between;
+}
+
+.hero-slide-btn div {
+    display: grid;
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    place-items: center;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.hero-slide-btn div span {
+    color: #ddd;
+    font-size: 1.8rem;
+}
