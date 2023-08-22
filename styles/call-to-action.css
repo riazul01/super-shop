@@ -1,0 +1,109 @@
+.new-arrivals {
+    padding-top: 3rem;
+    width: 100%;
+    height: 290px;
+}
+
+.new-arrivals-wrap {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-arriavals-news {
+    width: 30%;
+}
+
+.new-arriavals-news h1 {
+    color: #211e25;
+    font-size: 2.6rem;
+    margin-bottom: 0.8rem;
+    padding-right: 1rem;
+    line-height: 3rem;
+}
+
+.new-arriavals-news p {
+    color: #211e25;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+
+.new-arriavals-news button {
+    margin-top: 0.4rem;
+    color: #fff;
+    font-size: 1.2rem;
+    height: 2.6rem;
+    width: 8rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.1rem;
+    background: #206822;
+}
+
+.new-arrivals-products {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-arrival-card {
+    margin-left: 20px;
+    position: relative;
+    min-width: 305px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0.1rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.new-arrival-card::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.new-arriava-card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.new-arriava-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.new-arrival-card-text {
+    padding: 1rem 0 1rem 1.4rem;
+    position: absolute;
+    bottom: 1.6rem;
+    left: 0rem;
+    width: 14.4rem;
+    border-left: 7px solid #459122;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.new-arrival-card-text h3 {
+    color: #fff;
+    font-size: 1.6rem;
+    text-shadow: 0.1rem 0.1rem 1rem #211e25;
+}
+
+.new-arrival-card-text p {
+    padding-top: 0.3rem;
+    color: #ddd;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-shadow: 0.1rem 0.1rem 1rem #211e25;
+}
