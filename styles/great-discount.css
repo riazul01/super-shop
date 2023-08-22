@@ -1,0 +1,100 @@
+.call-to-action {
+    height: auto;
+    width: 100%;
+    background: #fff;
+}
+
+.call-to-action-wrap {
+    padding: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/background/call-to-action.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.call-to-action-image {
+    height: 420px;
+    flex-basis: 500px;
+    border: 1px solid #ccc;
+}
+
+.cta-image-content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 3px solid #fff;
+    border-radius: 0.2rem;
+    box-shadow: 0.4rem 0.4rem 1rem #ccc;
+}
+
+.cta-image-content img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.call-to-action-details {
+    padding-left: 4rem;
+    width: 50%;
+}
+
+.cta-save-per {
+    color: crimson;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.cta-offer-title,
+.cta-offer-price {
+    color: #206822;
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+.cta-offer-price {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cta-offer-msg {
+    position: relative;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 1.4rem;
+    display: inline-block;
+}
+
+.cta-offer-msg::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    height: 1rem;
+    width: 100%;
+    background: rgb(255, 0, 0, 0.4);
+}
+
+.cta-product-type {
+    display: none;
+}
+
+.cta-button {
+    margin: 2rem 0 0 0.4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    height: 3.6rem;
+    width: 10rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.1rem;
+    animation-delay: 0.5s;
+    background: #206822;
+}
