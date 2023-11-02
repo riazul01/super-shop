@@ -1,7 +1,8 @@
+/* HERO AREA START */
 .hero {
     height: 440px;
     width: 100%;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background/about.jpg');
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/background/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -17,19 +18,16 @@ marquee {
 }
 
 .hero-wrap {
-    margin: 0 auto;
     position: relative;
     width: 100%;
-    height: calc(100% - 1.4rem);
-    max-width: 1420px;
-    padding: 0 10px;
+    min-height: calc(100% - 1.4rem);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .hero-image {
-    height: 90%;
+    height: 360px;
     width: 420px;
     display: flex;
     align-items: center;
@@ -43,11 +41,12 @@ marquee {
     animation-delay: 0.3s;
 }
 
-.hero-description {
+.hero-desc {
     width: 60%;
+    height: auto;
 }
 
-.hero-description h1 {
+.hero-desc h1 {
     margin-bottom: 0.6rem;
     color: #fff;
     font-size: 4rem;
@@ -55,7 +54,7 @@ marquee {
     text-shadow: 0.2rem 0.2rem 1rem #211e25;
 }
 
-.hero-description button {
+.hero-desc button {
     margin: 1rem 0 0 0.4rem;
     color: #fff;
     font-size: 1.6rem;
@@ -70,27 +69,28 @@ marquee {
     animation-delay: 0.5s;
 }
 
-.hero-slide-btn {
+.hero-slide-btns {
     position: absolute;
-    bottom: 2rem;
     right: 0;
-    display: flex;
+    bottom: 2rem;
     height: auto;
     width: 7.4rem;
+    display: flex;
     justify-content: space-between;
 }
 
-.hero-slide-btn div {
-    display: grid;
+.hero-slide-btns div {
     height: 3rem;
     width: 3rem;
-    cursor: pointer;
+    display: grid;
     place-items: center;
     border-radius: 50%;
     border: 2px solid #ddd;
+    cursor: pointer;
 }
 
-.hero-slide-btn div span {
+.hero-slide-btns div span {
     color: #ddd;
     font-size: 1.8rem;
 }
+/* HERO AREA END */
