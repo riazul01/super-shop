@@ -63,8 +63,9 @@ header.active-header {
     transition: all 0.3s ease;
 }
 
-.nav-items li a:hover {
-    color: orangered;
+.nav-items li a:hover,
+.nav-items li a.active {
+    color: #206822;
 }
 
 .search-box {
@@ -113,15 +114,13 @@ input::placeholder {
     align-items: center;
 }
 
-.icon-links a,
-.icon-links div {
+.icon-links a {
     position: relative;
     margin-left: 1.6rem;
     text-decoration: none;
 }
 
-.icon-links div > span,
-#shopping-cart-link > span {
+.icon-links a > span {
     color: #211e25;
     font-size: 1.2rem;
     cursor: pointer;
