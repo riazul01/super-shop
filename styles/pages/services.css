@@ -177,3 +177,93 @@
 .service-card:nth-child(6) .service-card-details div a {
     color: crimson;
 }
+
+
+
+/* FAQ SECTION START */
+.faq {
+    padding: 4rem 0;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../../images/background/contact-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.faq-contents {
+    padding-top: 1.8rem;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    max-width: 900px;
+}
+
+.faq-title {
+    height: auto;
+    width: 100%;
+}
+
+.faq-title h1 {
+    padding: 1rem 4rem 1rem 1.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    display: inline-block;
+    background: #459122;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+
+.faq-accordion {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.faq-header {
+    position: relative;
+    padding: 1.2rem 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.6rem;
+    background: transparent;
+    text-shadow: 0.2rem 0.2rem 0.6rem #111;
+}
+
+.faq-icon {
+    position: absolute;
+    right: 0;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.faq-icon.active-faq-icon {
+    transform: rotate(450deg);
+}
+
+.faq-text {
+    padding: 0 1.4rem;
+    margin-bottom: 0.6rem;
+    height: 0;
+    opacity: 0;
+    background: #fff;
+    border-left: 2px solid transparent;
+    overflow: hidden;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.faq-text.active-faq-text {
+    padding: 1rem 1.4rem;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    border-left: 7px solid #459122;
+}
+/* FAQ SECTION END */
