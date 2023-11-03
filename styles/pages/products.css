@@ -96,10 +96,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-.add-to-favorite:active {
-    transform: scale(0.94);
-}
-
 .add-to-favorite span {
     padding: 0.4rem;
     color: #fff;

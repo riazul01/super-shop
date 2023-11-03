@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    height: auto;
+    width: 100%;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+}
+
+.section-title {
+    height: auto;
+    width: 100%;
+    margin-top: 1.6rem;
+}
+
+.section-title h1 {
+    position: relative;
+    color: #206822;
+    font-size: 2.6rem;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+.section-title h1::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 0.2rem;
+    width: 7rem;
+    background: #206822;
+    border-radius: 50%;
+}
+
+.section-contents {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 1420px;
+    height: auto;
+}

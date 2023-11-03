@@ -1,7 +1,5 @@
 import { products } from "./data.js";
 
-console.log(products)
-
 // PRODUCTS
 const handleCardStyles = () => {
     const productCards = document.querySelectorAll('.product-card');
@@ -140,10 +138,9 @@ const createProductCard = (product) => {
 }
 
 const renderProductsBySubcategory = () => {
-    console.log('Hello!')
     for (let i = 0; i < products.length; i ++) {
         const productCard = createProductCard(products[i]);
-        console.log('Hello!')
+    
         const top = document.querySelector('.top-products');
         const recent = document.querySelector('.recent-products');
         const popular = document.querySelector('.popular-products');
