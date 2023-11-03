@@ -1,0 +1,179 @@
+.services {
+    padding: 3rem 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-vertical-card {
+    position: relative;
+    width: 25%;
+    height: 36.6rem;
+}
+
+.vertical-card-image {
+    height: 100%;
+    width: 100%;
+}
+
+.vertical-card-image::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0.2rem;
+}
+
+.vertical-card-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.1rem;
+}
+
+.vertical-card-text {
+    padding: 1.6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 460px;
+    height: auto;
+    background: #fff;
+}
+
+.vertical-card-text h1 {
+    color: #206822;
+    font-size: 2.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px dashed silver;
+}
+
+.vertical-card-text p {
+    padding-top: 0.8rem;
+    color: #222;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service-cards {
+    margin-left: 2.2rem;
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-card {
+    margin: 0 0 1.8rem 1.4rem;
+    height: 11rem;
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0.2rem 0.2rem 0.8rem #ddd;
+}
+
+.service-card-no {
+    width: 30%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 0.2rem 0 0 0.2rem;
+}
+
+.service-card-no h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.service-card-details {
+    padding: 1.1rem;
+    height: 100%;
+    width: 70%;
+    border-radius: 0 0.2rem 0.2rem 0;
+    box-sizing: border-box;
+}
+
+.service-card-details h3 {
+    font-size: 1.4rem;
+}
+
+.service-card-details p {
+    margin-top: 0.4rem;
+    font-size: 1rem;
+}
+
+.service-card-details div {
+    margin-top: 0.4rem;
+}
+
+.service-card-details div a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.service-card:nth-child(1) .service-card-no {
+    background: #316131;
+}
+
+.service-card:nth-child(2) .service-card-no {
+    background: olivedrab;
+}
+
+.service-card:nth-child(3) .service-card-no {
+    background: #2f4f4f;
+}
+
+.service-card:nth-child(4) .service-card-no {
+    background: teal;
+}
+
+.service-card:nth-child(5) .service-card-no {
+    background: brown;
+}
+
+.service-card:nth-child(6) .service-card-no {
+    background: crimson;
+}
+
+.service-card:nth-child(1) .service-card-details h3,
+.service-card:nth-child(1) .service-card-details div a {
+    color: #316131;
+}
+
+.service-card:nth-child(2) .service-card-details h3,
+.service-card:nth-child(2) .service-card-details div a {
+    color: olivedrab;
+}
+
+.service-card:nth-child(3) .service-card-details h3,
+.service-card:nth-child(3) .service-card-details div a {
+    color: #2f4f4f;
+}
+
+.service-card:nth-child(4) .service-card-details h3,
+.service-card:nth-child(4) .service-card-details div a {
+    color: teal;
+}
+
+.service-card:nth-child(5) .service-card-details h3,
+.service-card:nth-child(5) .service-card-details div a {
+    color: brown;
+}
+
+.service-card:nth-child(6) .service-card-details h3,
+.service-card:nth-child(6) .service-card-details div a {
+    color: crimson;
+}
