@@ -134,30 +134,74 @@ import { products } from "./data.js";
 
 
 
+// CALL TO ACTION
+(function() {
+    const createCallToActionCard = (product) => {
+        const cardImage = document.createElement('div');
+        cardImage.setAttribute('class', 'cta-card-image');
 
+        const image = document.createElement('img');
+        image.src = product.imageUrl;
+        image.alt = product.name.split(' ').join('-');
 
+        cardImage.appendChild(image);
 
+        const cardText = document.createElement('div');
+        cardText.setAttribute('class', 'cta-card-text');
 
+        const cardTitle = document.createElement('h3');
+        cardTitle.textContent = product.name;
 
-// Call to action
-let arrivalCard = document.querySelectorAll('.new-arrival-card');
+        const cardPrice = document.createElement('p');
+        cardPrice.textContent = product.price + product.currency + '/' + product.unit;
+        
+        cardText.appendChild(cardTitle);
+        cardText.appendChild(cardPrice);
 
-// three cards width including each of their margin right
-let move = (arrivalCard[0].offsetWidth + 20) * 3;
+        const card = document.createElement('div');
+        card.setAttribute('class', 'cta-card');
 
-// slide three cards in every 3 seconds
-let newArrival = setInterval(() => {
-    if (move >= ((arrivalCard[0].offsetWidth + 20) * (arrivalCard.length / 2))) {
-        move = 0;
+        card.appendChild(cardImage);
+        card.appendChild(cardText);
+
+        return card;
     }
 
-    for (let i = 0; i < arrivalCard.length; i++) {
-        arrivalCard[i].style.transform = `translateX(-${move}px)`;
+    const renderCallToActionCards = () => {
+        const cards = document.querySelector('.cta-cards');
+        
+        const vegetables = products.filter((item) => item.category === 'vegetables');
+
+        for (let i = 0; i < vegetables.length; i ++) {
+            const card = createCallToActionCard(vegetables[i]);
+            cards.appendChild(card);
+        }
     }
 
-    move += (arrivalCard[0].offsetWidth + 20) * 3;
+    const slideCallToActionCards = () => {
+        let callToActionCard = document.querySelectorAll('.cta-card');
 
-}, 3000);
+        // three cards width including each of their margin right
+        let movePer = (callToActionCard[0].offsetWidth + 20) * 3;
+
+        // slide three cards in every 3 seconds
+        let newArrival = setInterval(() => {
+            if (movePer >= ((callToActionCard[0].offsetWidth + 20) * callToActionCard.length)) {
+                movePer = 0;
+            }
+
+            for (let i = 0; i < callToActionCard.length; i++) {
+                callToActionCard[i].style.transform = `translateX(-${movePer}px)`;
+            }
+
+            movePer += (callToActionCard[0].offsetWidth + 20) * 3;
+
+        }, 3000);
+    }
+
+    renderCallToActionCards();
+    slideCallToActionCards();
+})();
 
 
 
