@@ -245,3 +245,27 @@ body {
 /* payment cards end */
 
 /* FOOTER AREA END */
+
+
+
+/* COPYRIGHT AREA START */
+.copyright {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #211e25;
+    border-top: 1px solid #35323a;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.copyright p a {
+    color: #9fcf3d;
+    text-decoration: none;
+}
+/* COPYRIGHT AREA END */
