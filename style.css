@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Julee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
+@import url('./styles/products.css');
 * {
     margin: 0;
     padding: 0;

@@ -1,20 +1,16 @@
-#products {
-    padding: 1rem 0;
+#products, .products {
     height: auto;
     width: 100%;
 }
 
-#products > div {
-    padding-bottom: 4rem;
-    height: auto;
-    width: 100%;
+.products {
+    padding-top: 1rem;
 }
 
-.products-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
+.products-box {
+    margin-bottom: 2rem;
+    height: auto;
+    width: 100%;
 }
 
 .products-header {
@@ -41,6 +37,14 @@
 .products-header a span {
     font-size: 1rem;
     margin-left: 0.4rem;
+}
+
+.products-wrap {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .product-card {
