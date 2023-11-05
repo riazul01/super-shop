@@ -1,0 +1,128 @@
+/* about start */
+.about {
+    height: auto;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.about-wrap {
+    margin-bottom: 6rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-image {
+    position: relative;
+    width: 45%;
+    height: 450px;
+}
+
+.about-image::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.2rem;
+}
+
+.about-desc {
+    padding-top: 0.4rem;
+    width: 50%;
+    color: #343236;
+}
+
+.about-desc h3 {
+    font-size: 1.6rem;
+}
+
+.about-desc h1 {
+    color: #206822;
+    margin-top: 1.2rem;
+    font-size: 2.6rem;
+}
+
+.about-desc > p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.about-desc button {
+    margin-top: 1.6rem;
+    color: #fff;
+    font-size: 1.2rem;
+    height: 2.6rem;
+    width: 8rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #206822;
+    border-radius: 0.1rem;
+}
+
+.about-desc-list {
+    margin-top: 1.4rem;
+}
+
+.about-list {
+    margin-bottom: 0.6rem;
+    padding: 0.2rem 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.about-list span {
+    color: #206822;
+    font-size: 1.4rem;
+}
+
+.about-list p {
+    margin-left: 0.6rem;
+    padding: 0 0.2rem 0;
+    position: relative;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.about-list:hover p {
+    color: #fff;
+}
+
+.about-list p::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: olivedrab;
+    border-radius: 0.1rem;
+    transform: scaleX(0);
+    visibility: hidden;
+    transition: all 0.3s ease;
+    transform-origin: left;
+    z-index: -1;
+}
+
+.about-list:hover p::before {
+    transform: scaleX(1);
+    visibility: visible;
+}
+
+.about-desc button.learn-more {
+    margin-top: 1rem;
+}
+/* about end */
