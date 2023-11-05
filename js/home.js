@@ -245,7 +245,7 @@ import { products } from "./data.js";
     productPrice.textContent = `${product.price - (product.price * (product.discountInPercent / 100))}${product.currency} Only`;
     
     // infinite countdown
-    let timeCount = setInterval(() => {
+    let intervalId = setInterval(() => {
         let times = createInfiniteCountdown('28', '12:00:00');
         discountMessage.textContent =  `Offer ends in ${times[0]}d ${times[1]}h ${times[2]}m ${times[3]}s`;
     }, 1000);

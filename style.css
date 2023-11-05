@@ -7,9 +7,9 @@
 /* global */
 @import url('./styles/global.css');
 
-/* components */
-@import url('./styles/components/header.css');
-@import url('./styles/components/footer.css');
+/* sections */
+@import url('./styles/sections/header.css');
+@import url('./styles/sections/footer.css');
 
 /* pages */
 @import url('./styles/pages/home.css');
