@@ -1,7 +1,12 @@
 // HEADER
 (function() {
-    let header = document.querySelector('header');
+    let header = document.querySelector('.header');
     let sections = document.querySelector('.sections');
+    let toggleBar = document.querySelector('.toggler');
+    let navItems = document.querySelector('.nav-items');
+    let searchBtn = document.querySelector('.search-btn');
+    let searchBox = document.querySelector('.search-box');
+    let body = document.querySelector('body');
 
     window.onscroll = () => {
         let scrollTop = document.documentElement.scrollTop;
@@ -13,6 +18,34 @@
             header.classList.remove('active-header');
             sections.style.marginTop = 0 + 'px';
         }
+    }
+
+    toggleBar.onclick = (e) => {
+        e.stopPropagation();
+        toggleBar.classList.toggle('active');
+        navItems.classList.toggle('active');
+        searchBox.classList.remove('active');
+    }
+
+    searchBtn.onclick = (e) => {
+        e.stopPropagation();
+        searchBox.classList.toggle('active');
+        toggleBar.classList.remove('active');
+        navItems.classList.remove('active');
+    }
+
+    body.addEventListener('click', () => {
+        toggleBar.classList.remove('active');
+        navItems.classList.remove('active');
+        searchBox.classList.remove('active');
+    });
+
+    navItems.onclick = (e) => {
+        e.stopPropagation();
+    }
+
+    searchBox.onclick = (e) => {
+        e.stopPropagation();
     }
 })();
 
