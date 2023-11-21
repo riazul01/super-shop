@@ -54,7 +54,6 @@
 .subscribe-input button:hover {
     background: transparent;
 }
-
 /* SUBSCRIBE AREA END */
 
 
@@ -216,6 +215,8 @@
 }
 /* COPYRIGHT AREA END */
 
+
+
 @media screen and (max-width: 980px) {
     .subscribe {
         padding: 1.4rem 0;
@@ -250,24 +251,6 @@
 @media screen and (max-width: 440px) {
     .copyright p {
         font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .subscribe-text p {
-        font-size: 1.1rem;
-    }
-
-    .subscribe-input input {
-        font-size: 1.1rem;
-    }
-    
-    .subscribe-input input::placeholder {
-        font-size: 1.1rem;
-    }
-    
-    .subscribe-input button {
-        font-size: 1.1rem;
     }
 }
 
