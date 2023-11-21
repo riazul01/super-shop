@@ -193,6 +193,5 @@ const renderProductsByCategory = () => {
 if (document.querySelector('#home')) {
     renderProductsBySubcategory();
 } else if (document.querySelector('#products')) {
-    renderProductsBySubcategory();
     renderProductsByCategory();
 }
