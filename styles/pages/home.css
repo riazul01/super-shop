@@ -113,6 +113,7 @@ marquee {
 
 .cta-desc {
     width: 30%;
+    min-width: 360px;
     height: 100%;
 }
 
@@ -333,6 +334,14 @@ marquee {
         right: 1rem;
         bottom: 2rem;
     }
+
+    .cta-desc h1 {
+        font-size: 2.2rem;
+    }
+
+    .cta-desc button {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 860px) {
@@ -348,6 +357,45 @@ marquee {
     .hero-desc button {
         height: 2.6rem;
         width: 7rem;
+    }
+
+    .cta-desc p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .call-to-action {
+        padding: 2rem 0;
+    }
+
+    .call-to-action-wrap {
+       flex-direction: column;
+       align-items: start;
+    }
+
+    .cta-desc {
+        margin-left: 10px;
+        width: 100%;
+        max-width: 360px;
+        min-width: auto;
+    }
+
+    .cta-cards {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .cta-card {
+        margin: 0 12px 0 8px;
+    }
+
+    .cta-card-text h3 {
+        font-size: 1.3rem;
+    }
+    
+    .cta-card-text p {
+        font-size: 1.1rem;
     }
 }
 
@@ -384,5 +432,13 @@ marquee {
     .hero-desc button {
         height: 2.6rem;
         width: 7rem;
+    }
+
+    .call-to-action {
+        padding-top: 1rem;
+    }
+
+    .cta-desc h1 {
+        font-size: 2rem;
     }
 }
