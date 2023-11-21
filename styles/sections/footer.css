@@ -62,7 +62,7 @@
 /* FOOTER AREA START */
 .footer {
     height: auto;
-    min-height: 300px;
+    min-height: 280px;
     background: #211e25;
 }
 
@@ -74,12 +74,18 @@
 }
 
 .footer-wrap > div {
-    flex-basis: 320px;
+    margin-bottom: 2.8rem;
+    flex-basis: 340px;
     box-sizing: border-box;
 }
 
 .footer-wrap > .f-box {
+    margin-bottom: 2.8rem;
     flex-basis: 190px;
+}
+
+.footer-wrap > .payment-box {
+    margin-bottom: 1rem;
 }
 
 .f-box h2,
