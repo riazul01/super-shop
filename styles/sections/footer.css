@@ -247,6 +247,12 @@
     }
 }
 
+@media screen and (max-width: 440px) {
+    .copyright p {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .subscribe-text p {
         font-size: 1.1rem;
@@ -298,5 +304,9 @@
     
     .subscribe-input button {
         font-size: 1rem;
+    }
+
+    .copyright p {
+        font-size: 0.9rem;
     }
 }
