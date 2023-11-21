@@ -79,7 +79,7 @@ marquee {
     justify-content: space-between;
 }
 
-.hero-slide-btns div {
+.hero-slide-btns > div {
     height: 3rem;
     width: 3rem;
     display: grid;
@@ -89,7 +89,7 @@ marquee {
     cursor: pointer;
 }
 
-.hero-slide-btns div span {
+.hero-slide-btns > div > span {
     color: #ddd;
     font-size: 1.8rem;
 }
@@ -308,3 +308,81 @@ marquee {
     display: block;
 }
 /* GREAT DISCOUNT END */
+
+@media screen and (max-width: 1280px) {
+    .hero-image {
+        height: 320px;
+        width: 380px;
+    }
+    
+    .hero-desc h1 {
+        font-size: 3rem;
+    }
+    
+    .hero-desc button {
+        font-size: 1.2rem;
+        height: 3rem;
+        width: 8rem;
+    }
+
+    .hero-desc button {
+        margin-left: 0.2rem;
+    }
+    
+    .hero-slide-btns {
+        right: 1rem;
+        bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .hero-image {
+        height: 230px;
+        width: 270px;
+    }
+    
+    .hero-desc h1 {
+        font-size: 2.4rem;
+    }
+    
+    .hero-desc button {
+        height: 2.6rem;
+        width: 7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        height: calc(100vh - 73px);
+    }
+
+    .hero-wrap {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .hero-image {
+        margin-top: 1rem;
+    }
+
+    .hero-desc {
+        margin-top: 1rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .hero-image {
+        height: 200px;
+        width: 240px;
+    }
+    
+    .hero-desc h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-desc button {
+        height: 2.6rem;
+        width: 7rem;
+    }
+}
