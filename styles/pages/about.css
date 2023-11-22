@@ -2,10 +2,10 @@
 .about {
     height: auto;
     width: 100%;
-    margin-top: 4rem;
 }
 
 .about-wrap {
+    margin-top: 4rem;
     margin-bottom: 6rem;
     width: 100%;
     height: 100%;
@@ -155,7 +155,6 @@
 }
 
 .review-cards {
-    padding-top: 2rem;
     position: relative;
     width: 100%;
     height: auto;
@@ -171,7 +170,8 @@
     padding: 1.4rem 1.4rem 3rem 1.4rem;
     position: absolute;
     height: auto;
-    width: 630px;
+    width: 100%;
+    max-width: 630px;
     border: 1px solid #ccc;
     background: #fff;
     border-radius: 0.2rem;
@@ -233,3 +233,79 @@
     margin-left: 0.4rem;
 }
 /* customer review end */
+
+@media screen and (max-width: 720px) {
+    .about-wrap {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        flex-direction: column;
+    }
+
+    .about-wrap:last-child {
+        flex-direction: column-reverse;
+    }
+
+    .about-image {
+        width: 100%;
+    }
+
+    .about-desc {
+        margin-top: 1.4rem;
+        width: 100%;
+    }
+
+    .review-cards {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .about-image {
+        height: 340px;
+    }
+
+    .about-desc h3 {
+        font-size: 1.3rem;
+    }
+    
+    .about-desc h1 {
+        font-size: 1.8rem;
+    }
+    
+    .about-desc > p {
+        font-size: 1.1rem;
+    }
+    
+    .about-desc button {
+        margin-top: 1.4rem;
+        font-size: 1.1rem;
+        width: 8rem;
+    }
+    
+    .about-list span {
+        font-size: 1.2rem;
+    }
+    
+    .about-list p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .about-wrap {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .about-image {
+        height: 280px;
+    }
+
+    .about-desc h3 {
+        font-size: 1.2rem;
+    }
+    
+    .about-desc h1 {
+        font-size: 1.5rem;
+    }
+}
