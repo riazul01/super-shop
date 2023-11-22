@@ -16,7 +16,7 @@ export const products = [
     {
         id: 102,
         category: 'vegetables',
-        subCategory: 'popular',
+        subCategory: 'top',
         name: 'Cabbage',
         price: 60,
         currency: 'Tk',
@@ -72,7 +72,7 @@ export const products = [
     {
         id: 106,
         category: 'vegetables',
-        subCategory: '',
+        subCategory: 'recent',
         name: 'Potato Seasonal',
         price: 30,
         currency: 'Tk',
@@ -128,7 +128,7 @@ export const products = [
     {
         id: 110,
         category: 'vegetables',
-        subCategory: '',
+        subCategory: 'recent',
         name: 'Long Bean',
         price: 60,
         currency: 'Tk',
@@ -282,7 +282,7 @@ export const products = [
     {
         id: 121,
         category: 'fruits',
-        subCategory: '',
+        subCategory: 'top',
         name: 'Green Orange',
         price: 160,
         currency: 'Tk',
@@ -310,7 +310,7 @@ export const products = [
     {
         id: 123,
         category: 'fruits',
-        subCategory: '',
+        subCategory: 'popular',
         name: 'Fresh Kiwi',
         price: 130,
         currency: 'Tk',
@@ -618,7 +618,7 @@ export const products = [
     {
         id: 145,
         category: 'beverages',
-        subCategory: '',
+        subCategory: 'popular',
         name: 'Tea Leaf',
         price: 640,
         currency: 'Tk',
