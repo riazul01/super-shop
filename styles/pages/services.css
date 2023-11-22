@@ -1,9 +1,10 @@
-.services {
+.services-contents {
     padding: 3rem 0;
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .service-vertical-card {
@@ -64,17 +65,17 @@
 }
 
 .service-cards {
-    margin-left: 2.2rem;
     width: 75%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1.4rem;
 }
 
 .service-card {
-    margin: 0 0 1.8rem 1.4rem;
-    height: 11rem;
+    height: auto;
+    min-height: 11rem;
     width: 30rem;
     display: flex;
     flex-wrap: wrap;
@@ -229,9 +230,15 @@
     padding: 1.2rem 0;
     color: #fff;
     cursor: pointer;
-    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
     background: transparent;
     text-shadow: 0.2rem 0.2rem 0.6rem #111;
+}
+
+.faq-header > span:first-child {
+    font-size: 1.6rem;
+    width: 96%;
 }
 
 .faq-icon {
@@ -267,3 +274,36 @@
     border-left: 7px solid #459122;
 }
 /* FAQ SECTION END */
+
+
+@media screen and (max-width: 1440px) {
+    .service-vertical-card {
+        display: none;
+    }
+
+    .service-cards {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .faq {
+        padding: 1.2rem 0;
+    }
+
+    .faq-title h1 {
+        font-size: 1.4rem;
+    }
+    
+    .faq-accordion {
+        margin-top: 1rem;
+    }
+    
+    .faq-header > span:first-child {
+        font-size: 1.3rem;
+    }
+    
+    .faq-icon {
+        font-size: 1.1rem;
+    }
+}
